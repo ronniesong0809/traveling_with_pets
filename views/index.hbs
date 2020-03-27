@@ -1,0 +1,34 @@
+{{#if user}}
+    <div align="center">
+        <br>
+        <h1>登录成功</h1><br>
+        <form>
+            <label for="name">姓名:</label>
+            <input type="text" id="name" name="name"><br>
+            <label for="pet">宠物:</label>
+            <input type="text" id="pet" name="pet"><br>
+            <label>...</label>
+        </form>
+
+    </div>
+
+{{else}}
+
+    <div class="container mt-5">
+        <h1 class="display-4">欢迎!</h1>
+        <p class="lead">
+            为了更多人可以方便的安排与了解与自己相似处境的情况，也为了信息可以更快的采纳 与被了解。此网站仅为了展示间断变动时安排合理出行与新的信息展示。 用户们可以更快更方便的了解信息，与了解和自己相同处境的同好。  
+        </p>
+        <hr class="my-4">        
+        <p> 请登录: </p>
+        <a class="btn btn-lg btn-outline-danger" href="/auth/google" role="button">Login with <i class="fab fa-google-plus-g"></i></a>
+        <hr class="my-4">
+        <p>如果您对此项目感兴趣，可以访问我们的GitHub页面以获取更多信息。</p>
+        <p>If you are interested about this project, you can visit our GitHub page for more information.</p>
+        <p class="lead">
+            <a class="btn btn-lg btn-outline-dark" href="https://psu-oss-group.github.io/happy-chat/" role="button"><i class="fab fa-github"></i> Learn more</a> 
+            <a class="btn btn-lg btn-outline-warning" href="https://github.com/psu-oss-group/happy-chat/issues" role="button"><i class="fas fa-bug"></i> Submit a bug</a>
+        </p>
+    </div>
+
+{{/if}}
