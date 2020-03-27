@@ -26,6 +26,6 @@
     "passport-google-oauth": "^2.0.0"
   },
   "devDependencies": {
-    "rollup-plugin-json": "^4.0.0"
+    "rollup-plugin-json": "4.0.0"
   }
 }
